@@ -32,15 +32,16 @@ header h1{
 }
 .main-content .count-down > div{
     background-color: rgba(73, 73, 243, 0.938);
-    width: 5em;
-    height: 5em;
+    width: 6em;
+    height: 6em;
     margin: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .main-content .count-down > div span{
-    font-size: 4em;
+    font-size: 3em;
 }
 .image-container{
     width: 100%;
@@ -59,4 +60,5 @@ header h1{
         height: 10em;
         margin: 1rem;
     }
+    
 }
